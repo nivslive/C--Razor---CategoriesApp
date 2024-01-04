@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "/h3infK5GfBH2VhVdaQ7ZnG0OKwhMDpK+dBAij6CMJ0=",
+  "Source": "MyRazorApp",
+  "BasePath": "_content/MyRazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyRazorApp/wwwroot",
+      "Source": "MyRazorApp",
+      "ContentRoot": "/Users/nivs/Documents/prog/C#/balta/razor/MyRazorApp/wwwroot/",
+      "BasePath": "_content/MyRazorApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
