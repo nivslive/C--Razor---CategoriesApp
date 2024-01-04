@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+@RenderSection("styles", false)
+<body>
+    <header>
+        @{ await Html.RenderPartialAsync("Shared/NavMenuPartial"); }
+    </header>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    <main>
+        @RenderBody()
+    </main>
+    @RenderSection("scripts", false)
+</body>
+</html>

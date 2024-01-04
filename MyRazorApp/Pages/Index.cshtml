@@ -1,9 +1,10 @@
-@page
+@page "{skip?}/{take?}"
 
-@model MyRazorApp.Pages.About
+@model Index
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Index";
+    Layout = "Shared/_Layout";
 }
 
 <!DOCTYPE html>
@@ -28,6 +29,7 @@ tr:nth-child(even) {
 }
 </style>
 <body>
+    @* <partial name="Shared/NavMenuPartial"/> *@
     <table>
     <tr>
         <th>Id</th>
@@ -40,11 +42,13 @@ tr:nth-child(even) {
 
         <tr>
             <td>@category.Id</td>
-            <td>@category.Price.ToString("C", new System.Globalization.CultureInfo("pt-BR"))</td>
+            <td>@category.Price.ToString("C", new CultureInfo("pt-BR"))</td>
             <td>@category.Title</td>
         </tr>
 
     }
-
+@section scripts {
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+}
 </body>
 </html>

@@ -27,3 +27,15 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/nivs/Documents/prog/C\#/balta/razor/MyRazorApp/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nivs/Documents/prog/C\#/balta/razor/MyRazorApp/Pages/Shared/NavMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL05hdk1lbnVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nivs/Documents/prog/C\#/balta/razor/MyRazorApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nivs/Documents/prog/C\#/balta/razor/MyRazorApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
